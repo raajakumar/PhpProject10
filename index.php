@@ -2,9 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>
-             </title>
-    </head>
+     </head>
     <body>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 <input type="radio" name="radio" value="Radio 1">Radio 1
@@ -21,6 +19,5 @@ echo "You have selected :".$_POST['radio'];
 }
 }
 ?>
-      
-    </body>
+</body>
 </html>
